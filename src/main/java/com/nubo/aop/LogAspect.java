@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
 @Order(2)
 public class LogAspect {
 
-    @Pointcut("execution(public * com.nubo.jfs.service.*.*(..))")
+    @Pointcut("execution(public * com.nubo.service.*.*(..))")
     public void pointcut() {
     }
 
